@@ -1,0 +1,205 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header {
+    background-color: rgb(59, 71, 82);
+    color: white;
+    padding: 0.1em 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.title {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+
+.navbar {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.intro {
+    background-color: rgb(59, 71, 82);
+    display: flex;
+    padding: 3em 8em;
+    gap: 10%;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    flex: 1 1;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.left-title {
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+.left-text {
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.left-button {
+    color: white;
+    background-color:rgb(35, 125, 228);
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 0.5em ;
+    font-size: 1em;
+    margin-top: 0.5em;
+    white-space: nowrap;
+
+}
+
+.left-button:hover {
+    background-color: rgb(63, 138, 224);
+}
+
+
+.right img {
+    max-height: 300px;
+}
+.photos {
+    flex: 1 1 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2em 2em;
+}
+.photos-title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.gallery {
+    display: flex;
+    padding: 1em 4em;
+    gap: 1em;
+    justify-content: center;
+}
+
+.frame {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 0.5em;
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+.frame img {
+    max-width: 100%;
+    border: 1px dotted black;
+}
+
+.quote {
+    flex: 1 1 auto;
+    background-color: rgb(199, 218, 233);
+    display:flex;
+    flex-direction: column;
+    padding: 2em 25%;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-author{
+    width: inherit;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    padding-right: 4em;
+
+}
+
+.bubble {
+    flex: 1 1 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 6em;
+}
+
+.block {
+    
+    flex: 1;
+
+    background-color: rgb(35, 125, 228);
+    display: flex;
+    border-radius: 5px;
+    padding: 2em 4em;
+    justify-content: space-between;
+    color:white;
+    gap: 1em;
+
+}
+
+.bl-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.block-right {
+    display: flex;
+    align-items: center;
+}
+
+.right-button {
+    color: white;
+    background-color: rgb(35, 125, 228);
+    border-radius: 8px;
+    border-color: white;
+    padding: 1em 2em;
+    font-size: 1em;
+    white-space: nowrap;
+}
+.footer {
+    height: 35px;
+    background-color: rgb(31, 31, 44);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 0.8em;
+
+
+}
